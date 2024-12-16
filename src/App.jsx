@@ -15,14 +15,16 @@ function App() {
   const [success, setSuccess] = useState(0);
   const [isButtonClicked, setIsButtonClicked] = useState(false);
   const [usedLanguageColor, setIsUsedLanguageColor] = useState([]);
-  const [arrayOfSuccessAndFailure, setArrayOfSuccessANdFailure] = useState([])
-  const [isMatchNotFound, setIsMatchNotFound] = useState(false)
-  {/*
+  const [arrayOfSuccessAndFailure, setArrayOfSuccessANdFailure] = useState([]);
+
+  {/* THE ISMATCHNOTFOUND STATE VARIABLE
   helps us target only when theres no match and button is cicked so we can display the a message when 
   theres no match,couldnt use isMatchFound bcs when the user enter a a language an dcolor already used 
   it will display failed which it shouldnt be so because the user hasnt played yet so this state helps 
   us manipulate only when theres a mismatch 
   */}
+
+  const [isMatchNotFound, setIsMatchNotFound] = useState(false)
 
   let matchFound = false;
 
