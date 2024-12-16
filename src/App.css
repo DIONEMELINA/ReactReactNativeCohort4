@@ -1,0 +1,20 @@
+.attempt-column {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.attempt-list {
+    margin-top: 10px;
+
+}
+
+.attempt {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.attempt p {
+    margin: 2px 0;
+}
